@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Yolo Object Detection</title>
+    <style>
+        /* Make the image fit the screen */
+        img {
+            width: 100vw; /* full width */
+            height: 100vh; /* full height */
+            object-fit: cover; /* scale the image to fit the screen */
+        }
+    </style>
+</head>
+<body>
+    <img src="{{ url_for('video_feed') }}" />
+</body>
+</html>
